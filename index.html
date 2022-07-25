@@ -15,8 +15,14 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/mystyle.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+
+        <!--fab-->
+        <div class="fixed-bottom text-end p-4">
+            <a class="social-icon icon-fab" href="https://api.whatsapp.com/send?phone=5517991023691"><i class="fab fa-whatsapp"></i></a>
+        </div>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -45,7 +51,7 @@
                         <span class="text-primary">Xavier</span>
                     </h1>
                     <div class="subheading mb-5">
-                        Rua Antônio Joaquim da Silva, 369 · Mirassolandia-SP, CEP 15145-000 · (17) 99102-3691 ·
+                        <a href="https://www.google.com/maps/search/?api=1&query= Antônio Joaquim da Silva, Mirassolândia - SP, 15145-000">Rua Antônio Joaquim da Silva, 369 · Mirassolandia-SP, CEP 15145-000</a> · (17) 99102-3691 ·
                         <a href="mailto:name@email.com">richard.xavier883@gmail.com</a>
                     </div>
                     <p class="lead mb-5">Acredito que a busca por conhecimento e melhoria continua devem fazer parte do nosso dia-a-dia, para nos transformar em profissionais e principalmente pessoas melhores. Tenho imenso prazer em trabalhar em equipe, acredito que cada pessoa contribui com suas próprias experiências, e o trabalho fica em melhor harmonia trabalhando em conjunto. Tenho convicção que a tecnologia quando bem aplicada pode e irá transformar o mundo para melhor.</p>
@@ -178,7 +184,9 @@
         <script src="js/scripts.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-          AOS.init();
+          AOS.init({
+            disable: 'mobile'
+          });
         </script>
     </body>
 </html>
